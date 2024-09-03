@@ -88,7 +88,7 @@ figure h1{
 }
 
 /* title section styling */
-.title_section h1{
+.title_section h2{
     display: inline-block;
     color: var(--colortxt-primary);
     font-size: 30px;
@@ -102,7 +102,7 @@ figure h1{
     padding-right: 5px;
 }
 
-.title_section h1,span{
+.title_section h2,span{
     vertical-align: middle;
 }
 
@@ -159,7 +159,7 @@ figure h1{
     padding: 0.5rem 0;
 }
 
-#positive_check{
+.positive_check{
     padding: 2px 6px;
     margin-right: 5px;
     vertical-align: middle;
@@ -168,7 +168,7 @@ figure h1{
     border-radius: 50%;
 }
 
-#negative_check{
+.negative_check{
     padding: 2px 6px;
     margin-right: 5px;
     vertical-align: middle;
