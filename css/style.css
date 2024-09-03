@@ -1,0 +1,23 @@
+/* reset styling */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* assets */
+:root {
+    --colortxt-primary: #464a53;
+    --colortxt-secondary: #ffffff;
+    --colortxt-tertiary: #ced3d7;
+    --bgcolor-primary: #f6f8f9;
+    --bgcolor-secondary: #ffffff;
+    --flagcolor--1: #45abe9;
+    --flagcolor--2: #d863a0;
+    --flagcolor--3: #6ec5b1;
+    --flagcolor--4: #9c72e4;
+    --flagcolor--5: #f29e33;
+    --flagcolor--6: #b0c926;
+    --buttoncolor--selected: #45abe9;
+    --buttoncolor--unselected: #ffffff;
+
+}
