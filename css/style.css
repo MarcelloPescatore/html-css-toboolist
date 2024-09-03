@@ -50,7 +50,7 @@ figure h1{
     margin: auto;
     margin-top: 4rem;
     background-color: var(--bgcolor-secondary);
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
     border-radius: 5px 5px 0 0;
 }
 
@@ -58,6 +58,7 @@ figure h1{
     padding: 7px 14px;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 #selected{
