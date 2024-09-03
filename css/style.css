@@ -41,3 +41,81 @@ figure h1{
     display: inline-block;
     font-size: 50px;
 }
+
+/* main styling */
+
+.button_box{
+    width: 60%;
+    margin: auto;
+    margin-top: 4rem;
+    background-color: var(--bgcolor-secondary);
+    padding: 2rem 3rem;
+    border-radius: 5px 5px 0 0;
+}
+
+/* task area styling */
+#task_area{
+    width: 60%;
+    margin: auto;
+    margin-top: 0.25rem;
+    background-color: var(--bgcolor-secondary);
+    padding: 2rem 3rem;
+    border-radius: 0 0 5px 5px;
+}
+
+#new_task,#today,#upcoming{
+    padding: 1rem 0;
+}
+
+li>h1{
+    color: var(--colortxt-primary);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* flag styling */
+.flag_ed{
+    color: var(--colortxt-secondary);
+    background-color: var(--flagcolor--1);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.flag_web{
+    color: var(--colortxt-secondary);
+    background-color: var(--flagcolor--2);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.flag_sales{
+    color: var(--colortxt-secondary);
+    background-color: var(--flagcolor--6);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.flag_mob{
+    color: var(--colortxt-secondary);
+    background-color: var(--flagcolor--5);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.flag_q1{
+    color: var(--colortxt-secondary);
+    background-color: var(--flagcolor--4);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.flag_recr{
+    color: var(--colortxt-secondary);
+    background-color: var(--flagcolor--3);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+/* #title_list{
+    list-style-type: "\25BC";
+} */
