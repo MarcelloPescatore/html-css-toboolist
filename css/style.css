@@ -19,5 +19,25 @@
     --flagcolor--6: #b0c926;
     --buttoncolor--selected: #45abe9;
     --buttoncolor--unselected: #ffffff;
+}
 
+/* body styling */
+body{
+    background-color: var(--bgcolor-primary);
+}
+
+/* header styling */
+header{
+    height: 20%;
+    background-color: var(--bgcolor-secondary);
+    padding: 2rem;
+}
+
+figure h1,img{
+    vertical-align: middle;
+}
+
+figure h1{
+    display: inline-block;
+    font-size: 50px;
 }
