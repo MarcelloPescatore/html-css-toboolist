@@ -67,10 +67,23 @@ figure h1{
     padding: 1rem 0;
 }
 
-li>h1{
+/* title section styling */
+.title_section h1{
+    display: inline-block;
     color: var(--colortxt-primary);
     font-size: 30px;
     font-weight: bold;
+}
+
+.title_section span{
+    color: var(--colortxt-primary);
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.title_section h1,span{
+    vertical-align: middle;
 }
 
 /* flag styling */
@@ -116,6 +129,40 @@ li>h1{
     padding: 5px 10px;
 }
 
-/* #title_list{
-    list-style-type: "\25BC";
-} */
+/* task area styling */
+
+.task #positive_check,#negative_check,p{
+    display: inline-block;
+}
+
+.task{
+    padding: 0.5rem 0;
+}
+
+#positive_check{
+    padding: 2px 6px;
+    margin-right: 5px;
+    vertical-align: middle;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+#negative_check{
+    padding: 2px 6px;
+    margin-right: 5px;
+    vertical-align: middle;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.task p{
+    color: var(--colortxt-primary);
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+p>span{
+    margin-left: 5px;
+}
