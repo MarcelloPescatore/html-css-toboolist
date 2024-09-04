@@ -48,7 +48,7 @@ figure h1{
 .button_box{
     width: 60%;
     margin: auto;
-    margin-top: 4rem;
+    margin-top: 2rem;
     background-color: var(--bgcolor-secondary);
     padding: 1rem 3rem;
     border-radius: 5px 5px 0 0;
@@ -93,16 +93,14 @@ figure h1{
     color: var(--colortxt-primary);
     font-size: 30px;
     font-weight: bold;
+    vertical-align: middle;
 }
 
-.title_section span{
+.title_section .icon{
     color: var(--colortxt-primary);
     font-size: 15px;
     font-weight: bold;
     padding-right: 5px;
-}
-
-.title_section h2,span{
     vertical-align: middle;
 }
 
@@ -110,43 +108,49 @@ figure h1{
 .flag_ed{
     color: var(--colortxt-secondary);
     background-color: var(--flagcolor--1);
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 5px 10px;
+    margin-left: 0.75rem;
 }
 
 .flag_web{
     color: var(--colortxt-secondary);
     background-color: var(--flagcolor--2);
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 5px 10px;
+    margin-left: 0.75rem;
 }
 
 .flag_sales{
     color: var(--colortxt-secondary);
     background-color: var(--flagcolor--6);
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 5px 10px;
+    margin-left: 0.75rem;
 }
 
 .flag_mob{
     color: var(--colortxt-secondary);
     background-color: var(--flagcolor--5);
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 5px 10px;
+    margin-left: 0.75rem;
 }
 
 .flag_q1{
     color: var(--colortxt-secondary);
     background-color: var(--flagcolor--4);
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 5px 10px;
+    margin-left: 0.75rem;
 }
 
 .flag_recr{
     color: var(--colortxt-secondary);
     background-color: var(--flagcolor--3);
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 5px 10px;
+    margin-left: 0.75rem;
 }
 
 /* task area styling */
@@ -156,6 +160,10 @@ figure h1{
 }
 
 .task{
+    padding: 0.5rem 0;
+}
+
+ul>li{
     padding: 0.5rem 0;
 }
 
@@ -177,12 +185,14 @@ figure h1{
     border-radius: 50%;
 }
 
-.task p{
+li p{
     color: var(--colortxt-primary);
     font-size: 20px;
     vertical-align: middle;
 }
 
-p>span{
-    margin-left: 5px;
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
